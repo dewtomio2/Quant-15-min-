@@ -24,7 +24,7 @@ DAILY_FILTER_SELL = True
 DAILY_MA_FAST = 20
 DAILY_MA_SLOW = 50
 
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
+DISCORD_WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1574291000011132968/FXz48qe833dQgLhGzD1M_0sETWJKFHVljFDysyRaF4-Dj7rpxfQBYb7Fwi2WfFIyXriI", "")
 
 LOG_FILE = "signal_log_15m.csv"
 STATE_FILE = "last_alerted.json"
